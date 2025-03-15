@@ -1,14 +1,7 @@
-**Study Room Web App**
+# **Study Room Web App**
 
 A Django-based web application designed to create collaborative study rooms where users can join, create groups, and send messages in real-time.
 
-**Features**
-User Authentication: Secure sign-up and login using email and password.
-Create & Join Rooms: Users can create rooms around various topics, or join existing rooms to collaborate.
-Real-time Messaging: Each room has a messaging system for users to communicate.
-User Profiles: Users can customize their profile with an avatar, bio, and personal information.
-Search Functionality: Search rooms by topic or name, making it easier to find relevant study groups.
-Activity Feed: See recent activity and messages across the platform.
 Tech Stack
 Backend: Django (Python)
 Frontend: HTML, CSS, JavaScript
@@ -17,33 +10,39 @@ Authentication: Django's built-in user authentication system
 Deployment: Can be deployed on platforms like Heroku, DigitalOcean, or similar.
 Installation
 
-**_Clone the repository_**:
+# Cloning the repository
 
-git clone https://github.com/yourusername/study-room-app.git
-cd study-room-app
+--> Clone the repository using the command below :
 
-**_Create a virtual environment and activate it_**:
+`git clone https://github.com/westerbean/studywithme.git`
 
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+--> Move into the directory where we have the project files :
 
-**_Install the required dependencies_**:
+`cd StudyBud`
 
-pip install -r requirements.txt
+--> Create a virtual environment :
 
-**_Run migrations to set up the database_**:
+# Let's install virtualenv first
+`pip install virtualenv`
 
-python manage.py migrate
+# Then we create our virtual environment
+`virtualenv envname`
 
-**_Create a superuser to access the Django admin panel_**:
+--> Activate the virtual environment :
 
-python manage.py createsuperuser
+`envname\scripts\activate`
 
-**_Start the development server_**:
+--> Install the requirements :
 
-python manage.py runserver
+`pip install -r requirements.txt`
 
-The app will be running at http://127.0.0.1:8000/.
+# Running the App
+
+--> To run the App, we use :
+
+`python manage.py runserver`
+
+⚠ Then, the development server will be started at http://127.0.0.1:8000/
 
 **Usage**
 Create a new account or login using email and password.
@@ -51,7 +50,10 @@ Create a new room or join existing rooms to engage in study groups.
 Send and receive messages in real-time with other participants in the room.
 
 Screenshots
-<img width="1440" alt="Screenshot 2025-03-12 at 02 36 19" src="https://github.com/user-attachments/assets/44a30946-495f-44f0-8c89-ab34bfacaf9b" />
+
+![AE1DF146-0D29-4DE8-9A1E-97111DB038EF_1_201_a](https://github.com/user-attachments/assets/1c8a8902-4ac9-4a6e-8b28-b6f471ace441)
+![C177A12B-0FD4-4447-8878-0F46CECE2039_1_201_a](https://github.com/user-attachments/assets/188344a7-c54d-431a-992c-8f5153064b0a)
+
 
 **Contributing**
 Feel free to fork the repository, make improvements, or submit pull requests. Any contributions are welcome!

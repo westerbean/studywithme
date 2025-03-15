@@ -22,10 +22,10 @@ Installation
 
 --> Create a virtual environment :
 
-# Let's install virtualenv first
+#Let's install virtualenv first
 `pip install virtualenv`
 
-# Then we create our virtual environment
+#Then we create our virtual environment
 `virtualenv envname`
 
 --> Activate the virtual environment :

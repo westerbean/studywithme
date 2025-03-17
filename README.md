@@ -55,7 +55,9 @@ Create a new room or join existing rooms to engage in study groups.
 Send and receive messages in real-time with other participants in the room.
 
 Screenshots
-![AE1DF146-0D29-4DE8-9A1E-97111DB038EF_1_201_a](https://github.com/user-attachments/assets/1e6ee0e7-418e-4bec-998f-c6ca6b5913b0)![C177A12B-0FD4-4447-8878-0F46CECE2039_1_201_a](https://github.com/user-attachments/assets/b0eef5b6-bcb6-4bcb-84d8-1619445fe354)
+![AE1DF146-0D29-4DE8-9A1E-97111DB038EF_1_201_a](https://github.com/user-attachments/assets/74e5b01a-ae3a-4114-a8d5-ad1e9c2bf7d1)
+![C177A12B-0FD4-4447-8878-0F46CECE2039_1_201_a](https://github.com/user-attachments/assets/f55e310a-67ef-4664-a639-1cc5c2c10578)
+
 
 **Contributing**
 Feel free to fork the repository, make improvements, or submit pull requests. Any contributions are welcome!
